@@ -1,0 +1,39 @@
+.data-line {
+	stroke: steelblue;
+	stroke-width: 2;
+	fill: none;
+	stroke-dasharray: 0;
+}
+
+path {
+	stroke: #eee;
+	stroke-width: 1;
+	stroke-dasharray: 0;
+	fill: none;
+}
+
+.area {
+  	fill: white;
+    opacity: 0;
+}
+
+text {
+	font: 12px Arial;
+	fill: #000000;
+}
+
+line {
+	stroke: #87afc7;
+	stroke-width: 0.5;
+	fill: none;
+}
+
+.data-point {
+	stroke: black;
+	stroke-width: 0.5;
+	fill: red;
+}
+
+#chart {
+        margin: 0;
+}

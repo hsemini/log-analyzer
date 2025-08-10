@@ -1,0 +1,242 @@
+body{
+    background-color: #FFFFFF;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 100%;
+    border-style: none;
+}
+
+#event_panel{
+    width: 400px; 
+    height: 650px; 
+    position: absolute; 
+    top: 10px;
+    left: 10px; 
+    z-index: 0; 
+    resize:both;
+    background-color: #E6E6FA;
+}
+
+#graph_panel1{
+    width: 920px;
+    height: 410px;
+    position: absolute; 
+    top: 10px; 
+    left: 420px; 
+    z-index: 0; 
+    resize:horizontal;
+    background-color: #E6E6FA;
+}
+
+#graph_panel2{
+    width: 380px;
+    height: 320px;
+    position: absolute; 
+    top: 10px; 
+    left: 1350px; 
+    z-index: 0; 
+    resize:both;
+    background-color: #E6E6FA;
+}
+
+#graph_panel3{
+    width: 380px;
+    height: 320px;
+    position: absolute; 
+    top: 340px; 
+    left: 1350px; 
+    z-index: 0; 
+    resize:both;
+    background-color: #E6E6FA;
+}
+
+#graph_panel4{
+    width: 920px;
+    height: 230px;
+    position: absolute; 
+    top: 430px; 
+    left: 420px; 
+    z-index: 0; 
+    resize:both;
+    background-color: #E6E6FA;
+}
+
+.chart4 {
+      background-color: #FFFFFF;
+      font: 12px sans-serif;
+      height: 120px;
+      text-shadow: none;
+      width: 880px;
+    }
+
+#graph_panel5{
+    width: 470px;
+    height: 650px;
+    position: absolute; 
+    top: 10px; 
+    left: 1740px; 
+    z-index: 0; 
+    resize:both;
+    background-color: #E6E6FA;
+}
+
+.chart5 {
+      background-color: #FFFFFF;
+      font: 12px sans-serif;
+      height: 540px;
+      text-shadow: none;
+      width: 430px;
+    }
+
+.player_data_holder{
+    width: 100%;
+    height: 530px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3399FF;
+    overflow-y: scroll;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.player_holder2{
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3399FF;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+ .chart div {
+  width: 96%;  
+  height: 100%;     
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+  overflow-x: auto;
+  position: absolute;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+
+.resizable{ 
+  overflow: hidden;
+  resize:both;
+  background-size: cover;    
+}
+
+.top {
+    z-index: 2; 
+    position: relative
+}
+      
+.bottom {
+    z-index: 1; 
+    position: relative
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(36, 140, 219, 0.5);
+  color: #F0E68C;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(36, 140, 219, 0.5);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+@media screen (min-width: 600px) and ( min-height: 600px) {
+    
+    .panel{
+        background-size: cover;
+        max-width: 1000px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        max-height: 1000px;
+        cursor: move;
+        resize: both;
+        background-color: #E6E6FA;
+    }
+    
+    .panel-body{
+        background-color: #E6E6FA;
+        background-size: cover;
+        overflow-y: scroll;
+    }
+    
+}
+
+.show_color{
+    width: 1px;
+    height: 1px;
+    display: inline;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+.grid path {
+      stroke-width: 0;
+}
+
+
+<!-- Line Chart css-->
+.axis path,
+.axis line{
+    fill: none;
+    stroke: blue;
+     stroke-width: 2px;
+  }
+
+.line{
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+  }
+
+.tick text{
+    font-size: bold 11px;
+  }
+
+.tick line{
+    opacity: 0.2;
+  }

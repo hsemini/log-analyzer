@@ -1,0 +1,78 @@
+.chart2 {
+      background-color: #FFFFFF;
+      /*border: 1px solid gray;*/
+      font: 12px sans-serif;
+      height: 230px;
+      text-shadow: none;
+      width: 200px;
+    }
+    
+    .chart2 .total{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .chart2 .units{
+      fill: gray;
+      font-size: 12px;
+    }
+
+    .chart2 .label{
+      fill: #CCC;
+      font-size: 12px;
+    }
+
+    .chart2 .value{
+      font-size: 14px;
+    }
+
+ .chart3 {
+      background-color: #FFFFFF;
+      /*border: 1px solid gray;*/
+      font: 12px sans-serif;
+      height: 230px;
+      text-shadow: none;
+      width: 200px;
+    }
+    
+    .chart3 .total{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .chart3 .units{
+      fill: gray;
+      font-size: 12px;
+    }
+
+    .chart3 .label{
+      fill: #CCC;
+      font-size: 12px;
+    }
+
+    .chart3 .value{
+      font-size: 14px;
+    }
+
+
+    #slider label {
+        position: absolute;
+        width: 20px;
+        margin-left: -20px;
+        text-align: center;
+        margin-top: 30px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .toolTip {
+        position: absolute;
+        display: none;
+        width: auto;
+        height: auto;
+        background: none repeat scroll 0 0 white;
+        border: 0 none;
+        border-radius: 8px 8px 8px 8px;
+        box-shadow: -3px 3px 15px #888888;
+        color: black;
+        font: 11px sans-serif;
+        padding: 5px;
+        text-align: center;
+    }
